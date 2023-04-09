@@ -1,0 +1,110 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "左邻右舍"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/buyVeg/buyVeg",
+			"style": {
+				"navigationBarTitleText": "买菜"
+			}
+		},
+		{
+			"path": "pages/volunteerHealth/volunteerHealth",
+			"style": {
+				"navigationBarTitleText": "志愿者健康登记"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/volunteerApply/volunteerApply",
+			"style": {
+				"navigationBarTitleText": "志愿者申请"
+			}
+		},
+		{
+			"path": "pages/comment/comment",
+			"style": {
+				"navigationBarTitleText": "评价"
+			}
+		},
+		{
+			"path": "pages/personInfo/personInfo",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/feedBack/feedBack",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{
+			"path": "pages/articleDetail/articleDetail",
+			"style": {
+				"navigationBarTitleText": "公告内容"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-button": "/wxcomponents/vant-weapp/button/index",
+			"van-tabbar": "/wxcomponents/vant-weapp/tabbar/index",
+			"van-tabbar-item": "/wxcomponents/vant-weapp/tabbar-item/index",
+			"van-area": "/wxcomponents/vant-weapp/area/index",
+			"van-radio": "/wxcomponents/vant-weapp/radio/index",
+			"van-radio-group": "/wxcomponents/vant-weapp/radio-group/index",
+			"van-uploader": "/wxcomponents/vant-weapp/uploader/index",
+			"van-picker": "/wxcomponents/vant-weapp/picker/index",
+			"van-popup": "/wxcomponents/vant-weapp/popup/index",
+			"van-overlay": "/wxcomponents/vant-weapp/overlay/index",
+			"van-dialog": "/wxcomponents/vant-weapp/dialog/index",
+			"van-rate": "/wxcomponents/vant-weapp/rate/index"
+		}
+	},
+	"tabBar":{
+		"color":"#333",
+		"selectedColor":"deepskyblue",
+		"backgroundColor":"#eee",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"./static/images/index.png",
+				"selectedIconPath":"static/images/new_index.png"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"text":"我的",
+				"iconPath":"static/images/my.png",
+				"selectedIconPath":"static/images/new_my.png"
+			}
+		]
+	}
+}
